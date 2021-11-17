@@ -1,0 +1,36 @@
+.tweets{
+    width: 750px;
+    &__menu{
+        list-style-type: none;
+        display: flex;
+        padding: 0;
+        justify-content: space-around;
+    }
+    &__link{
+        text-decoration: none;
+        color: rgb(77, 75, 75);
+        font-weight: bold;
+        &:hover{
+            color: #000;
+            text-decoration: underline 4px #1DA1F2;
+        }
+    }
+    &__pinned{
+        color: #536471;
+    }
+    &__submenu{
+        list-style-type: none;
+        padding: 0;
+    }
+    &__div{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    &__nav{
+        width: 750px;
+    }
+    &__span{
+        color: rgb(172, 169, 169);
+    }
+}

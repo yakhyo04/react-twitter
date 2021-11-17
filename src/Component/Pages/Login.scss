@@ -1,0 +1,53 @@
+.login{
+    width: 760px;
+    // display: flex;
+    // justify-content: center;
+    &__title{
+        font-size: 42px;
+        text-align: center;
+    }
+    &__img{
+        margin-left: 100px;
+    }
+    &__input{
+        padding: 10px 100px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        border: 1px solid rgb(177, 174, 174);
+        margin-bottom: 30px;
+    }
+    &__btn{
+        text-decoration: none;
+        background-color: #1DA1F2;
+        border: 2px solid #1DA1F2;
+        padding: 10px 165px;
+        border-radius: 20px;
+        color: #fff;
+        &:hover{
+            background: transparent;
+            color: #1DA1F2;
+        }
+    }
+    &__list{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        // margin: 0;
+        padding: 0;
+    }
+    &__link{
+        text-decoration: none;
+        color: #1DA1F2;
+        &:hover{
+            color: #176291;
+        }
+    }
+    &__div{
+        width: 500px;
+        padding: 100px;
+    }
+    &__form{
+        padding: 50px;
+    }
+}

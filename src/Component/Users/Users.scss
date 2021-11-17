@@ -1,0 +1,18 @@
+.users{
+    &__list{
+        list-style-type: none;
+        padding: 0;
+    }
+    &__submenu{
+        width: 600px;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+}
